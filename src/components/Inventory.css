@@ -1,0 +1,43 @@
+.inventory {
+  min-width: 50%;
+  background: #2b2b2b;
+
+  padding: 1rem;
+
+  border-top-left-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inventory--header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.inventory--header--h2 {
+  color: #dedede;
+}
+
+.inventory--footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inventory-footer--ci-btn {
+  padding: 0.5rem 1rem;
+}
+
+.inventory--entities {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media only screen and (max-width: 768px) {
+  .inventory {
+    width: 10%;
+  }
+}

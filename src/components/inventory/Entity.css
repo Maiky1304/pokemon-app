@@ -1,0 +1,46 @@
+.entity {
+  background-color: #362222;
+  border-radius: 1rem;
+
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entity--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entity--header span {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.entity--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entity--footer button {
+  padding: 0.3rem 0.5rem;
+  background: #b73e3e;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  transition: 0.4s all;
+}
+
+.entity--footer button:hover {
+  cursor: pointer;
+  background: #913131;
+}
+
+.entity--footer button:active {
+  background: #782828;
+}
